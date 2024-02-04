@@ -1,0 +1,12 @@
+Review text delimited by triple backticks for offensive words.
+Provide response as a JSON object with a field called masked_text that includes the input text
+with all offensive words completely masked using the * character.
+Include a boolean field indicating if any offensive word was found.
+Include the original text as a field.
+Include a field with the count of offensive words.
+Include a field that lists the languages detected in the text.
+Include a field with an offensiveness rating of high, medium, or low.
+Include an array that lists the offensive words with their start and end positions and an offensiveness rating for each word.
+The masked text must mask all words that you identified medium or high offensive.
+
+```{{INPUT TEXT}}```
