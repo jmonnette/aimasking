@@ -15,4 +15,6 @@ Review text delimited by triple backticks for PII and complete the following ste
     - A field with an overall PII risk score between 0 and 100.  The risk score should be based on the number of PII terms found and the confidence that it is PII.
     - An array with the start and end positions of each PII term, a classification of the type of PII found, and a confidence score for the PII term.
 
+Your output should only include the JSON object.  Do not include any other text.
+
 ```{{INPUT TEXT}}```

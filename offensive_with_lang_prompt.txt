@@ -6,7 +6,7 @@ Include the original text as a field.
 Include a field with the count of offensive words.
 Include a field that lists the languages detected in the text.
 Include a field with an offensiveness rating of high, medium, or low.
-Include an array that lists the offensive words with their start and end positions and an offensiveness rating for each word.
+Include an array that lists the offensive words with their start and end positions, an offensiveness rating for each word, and an English translation if the word is not in English.
 The masked text must mask all words that you identified medium or high offensive.
 
 ```{{INPUT TEXT}}```
